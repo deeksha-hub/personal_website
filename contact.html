@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h2>Contact Form</h2>
+  <p><em>Please fill in your information. I'll contact you <strong>ASAP</strong></em></p>
+  <br>
+  <hr>
+
+  <form action="mailto:deekshasin@gmail.com" method="post" enctype="text/plain">
+
+
+    <label for="name">Your Name*:</label>
+    <input type="text" name="firstname" id="name" placeholder="First Name" required>
+    <input type="text" name="lastname" id="name" placeholder="Family Name" required>
+    <br>
+    <br>
+    <br>
+
+    <label>Your Gender:</label>
+    <br>
+
+    <input type="radio" name="gender" value="male">
+    <label>Male</label>
+
+    <input type="radio" name="gender" value="female">
+    <label>Female</label>
+
+    <input type="radio" name="gender" value="others">
+    <label>Others</label>
+    <br>
+
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="email">
+    <br>
+
+    <br>
+    <label>Your Password:</label>
+    <input type="password" name="password">
+    <br>
+
+    <br>
+    <label>Write your message:</label>
+    <textarea name="message" rows="10" cols="50"></textarea>
+    <br>
+    <br>
+    <br>
+    <label>Verification:</label>
+    <input type="checkbox" name="verification" id="checkbox" required>
+    <label for="checkbox">🔑I'm not a robot</label>
+    <br>
+    <br>
+    <input type="submit" value="submit">
+<h6>* This is required</h6>
+
+
+  </form>
+
+
+
+
+</body>
+
+</html>
